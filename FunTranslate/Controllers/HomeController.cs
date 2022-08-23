@@ -18,7 +18,7 @@ public class HomeController : Controller
     public async Task<IActionResult> Index()
     {
         var client = _httpClientFactory.CreateClient();
-        var responseMessage = await client.GetAsync("https://api.funtranslations.com/translate/yoda.json?text=Hello");
+        var responseMessage = await client.GetAsync("https://api.funtranslations.com/translate/yoda.json?text=Helloyoda");
 
 
         if(responseMessage.StatusCode == System.Net.HttpStatusCode.OK)
