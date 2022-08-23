@@ -1,0 +1,52 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Dtos\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Features\" />
+    <None Remove="Mapping\" />
+    <None Remove="Parameters\" />
+    <None Remove="Wrappers\" />
+    <None Remove="Features\Commands\" />
+    <None Remove="Features\Queries\" />
+    <None Remove="Interfaces\Repository\" />
+    <None Remove="AutoMapper" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="MediatR" />
+    <None Remove="MediatR.Extensions.Microsoft.DependencyInjection" />
+    <None Remove="Features\Commands\TranslateRequest\" />
+    <None Remove="Features\Queries\TranslateRequest\" />
+    <None Remove="Features\Commands\TranslateResponse\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dtos\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Features\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Parameters\" />
+    <Folder Include="Wrappers\" />
+    <Folder Include="Features\Commands\" />
+    <Folder Include="Features\Queries\" />
+    <Folder Include="Interfaces\Repository\" />
+    <Folder Include="Features\Commands\TranslateRequest\" />
+    <Folder Include="Features\Queries\TranslateRequest\" />
+    <Folder Include="Features\Commands\TranslateResponse\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+  </ItemGroup>
+</Project>

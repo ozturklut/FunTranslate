@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "hnWdHPpZknbvD9sQlf/Ls6zUTGMiAGmRQBp5jDkaYJ8TwbeCKL+1fxYuvDM+/PHXOVEQGjQuA2y4Ly9JbagpiQ==",
+  "success": true,
+  "projectFilePath": "/Users/lutfullahozturk/Desktop/Code/dotnet6/FunTranslate/src/Core/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/lutfullahozturk/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
+    "/Users/lutfullahozturk/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/Users/lutfullahozturk/.nuget/packages/mediatr/10.0.1/mediatr.10.0.1.nupkg.sha512",
+    "/Users/lutfullahozturk/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/lutfullahozturk/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/10.0.1/mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
+    "/Users/lutfullahozturk/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/lutfullahozturk/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/Users/lutfullahozturk/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/Users/lutfullahozturk/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/lutfullahozturk/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
